@@ -22,10 +22,10 @@
 </template>
 
 <script>
-import headTitle from './head.vue'
-import server from './server.vue'
-import serverDetail from './serverDetail.vue'
-import serverManage from './serverManage.vue'
+import headTitle from './shared/head.vue'
+import server from './server/server.vue'
+import serverDetail from './server/serverDetail.vue'
+import serverManage from './shared/serverManage.vue'
 export default {
   name: 'app',
   data () {
