@@ -1,15 +1,32 @@
 <template>
   <div>
     <li
-      class="list-group-item"
-      v-for="index in 5">
-      Server #{{ index }}
-    </li>
-  </div>
+    style="cursor: pointer"
+    class="list-group-item"
+    v-for="server in servers">
+    Server #{{ server.id }}
+  </li>
+</div>
 </template>
 <script>
-	
+export default {
+  data () {
+    return {
+      servers: [
+        {
+          id:1 , status:'online',
+        },
+        {
+          id:2 , status:'offline',
+        },
+        {
+          id:3 , status:'unknow',
+        }
+      ]
+    }
+  }
+}
 </script>
 <style>
-	
+
 </style>
