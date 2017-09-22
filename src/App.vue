@@ -26,6 +26,7 @@ import headTitle from './shared/head.vue'
 import server from './server/server.vue'
 import serverDetail from './server/serverDetail.vue'
 import serverManage from './shared/serverManage.vue'
+
 export default {
   name: 'app',
   data () {
