@@ -30,7 +30,6 @@ export default {
   },
   methods: {
     serverDetail (server) {
-      console.log('¡asdasdas')
       eventBus.$emit('changeServer',server)
     }
   }

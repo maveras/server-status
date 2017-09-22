@@ -41,7 +41,6 @@ export default {
     eventBus.$on('changeServer', (server) => {
       this.server = server
       this.selected = server.status
-       console.log('oaseee')
     })
   } 
 }
